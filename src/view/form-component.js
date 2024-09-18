@@ -8,10 +8,10 @@ function createFormComponentTemplate() {
 
        <div class="input">
                 <label>Новая задача</label>
-                <form>
-                    <input type="text" value="Название задачи...">
-                    <button type="button">+ Добавить</button>
-                </form>
+        <form>
+            <input type="text"placeholder="Название задачи...">
+            <button type="button">+ Добавить</button>
+        </form>
             </div>
 
     `
