@@ -7,7 +7,7 @@ import {render, RenderPosition} from './framework/render.js';
 
 const bodyContainer= document.querySelector('.header');
 const formContainer= document.querySelector('.new_task');
-const taskBlockContainer= document.querySelector('.tasks');
+const taskBlockContainer= document.querySelector('.row');
 
 
 
