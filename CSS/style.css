@@ -106,18 +106,18 @@ border: 1px solid #ccc;
     color:#000
 }
 
-.taskBlock{
+.blogack{
     
     color: #6c6b6bc8;
     width: 22%;
 }
 
-.row li{
+.blogack li{
     
     border-left: 5px solid #6c6b6bc8;
 }
 
-.row label {
+.blogack label {
     display: flex;
     align-items:baseline;
     border: 1px solid #ccc; /* Добавляет границу для наглядности */
