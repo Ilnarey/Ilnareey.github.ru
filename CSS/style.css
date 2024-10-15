@@ -97,7 +97,7 @@ border: 1px solid #ccc;
     border: 1px ; /* Добавляет границу для наглядности */
     border-radius: 7px;
     height: 40px;
-    margin-left: 40px;
+    width: 100%;
     color:#fff
 }
 
@@ -106,7 +106,7 @@ border: 1px solid #ccc;
     border: 1px ; /* Добавляет границу для наглядности */
     border-radius: 7px;
     height: 40px;
-    margin-left: 40px;
+    width: 100%;
     color:#000
 }
 
@@ -115,6 +115,7 @@ border: 1px solid #ccc;
     color: #6c6b6bc8;
     width: 22%;
 }
+
 
 .blogack li{
     
@@ -196,31 +197,13 @@ border: 1px solid #ccc;
     width: 60px;    
 }
 
-.tasks{
+.tasks {
     display: flex;
+    justify-content: space-between;
 }
 
-.tasks button{
-    background-color: red; 
-    text-align: center; 
-    width: 120px; 
-    border: 1px solid #ccc; 
-    border-radius: 7px; 
-    padding: 10px; 
-    margin: 10px 0; 
-    margin-left: 40px; 
-    box-shadow: 0 1px 3px rgba(1,0,0,0.1);
-}
 
-.tasks label{
-    border: 1px solid #ccc;
-    border-radius: 7px;
-    padding: 5px;
-    margin: 10px 0;
-    box-shadow: 10px 1px 3px rgba(1,0,0,0.1);
-    list-style-type: none;
-    margin-left: 40px;
-}
+
 
 
 

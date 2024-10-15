@@ -6,9 +6,8 @@ import { StatusLabel } from '../const.js';
       return (
         
         `
-            <ul class="list_${status}">
+            
                     <li class="task">${title}</li>
-             </ul>
       `
      
         );
