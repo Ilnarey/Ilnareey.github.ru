@@ -18,9 +18,7 @@ body{
 
 }
 
-.tasks_blok{
-    display: flex;
-}
+
 
 .header{
     background-color:#254ceb;
@@ -88,6 +86,8 @@ border: 1px solid #ccc;
     border: 1px ; /* Добавляет границу для наглядности */
     border-radius: 7px;
     height: 40px;
+    padding: 10px;
+    margin: 10px 0;
     width: 100%;
     color:#fff
 }
@@ -202,6 +202,10 @@ border: 1px solid #ccc;
     justify-content: space-between;
 }
 
+.tasks_blok {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
