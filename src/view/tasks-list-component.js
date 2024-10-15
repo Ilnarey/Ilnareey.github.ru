@@ -6,9 +6,7 @@ function createTasksListTemplate(status) {
       
       `
               <div class="${status}">
-               <ul class="list_${status}">
                  <label>${StatusLabel[status]}</label>
-               </ul>
               </div>
 
     `
