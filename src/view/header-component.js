@@ -12,8 +12,12 @@ function createHeaderComponentTemplate() {
 }
 
 
-export default class HeaderComponent extends AbstractComponent{
-  get template() { 
+export default class HeaderComponent extends AbstractComponent {
+  constructor() {
+    super();
+  }
+  get template() {
     return createHeaderComponentTemplate();
   }
+
 }
