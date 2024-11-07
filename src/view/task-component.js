@@ -1,8 +1,7 @@
 import { AbstractComponent } from "../framework/view/abstract-component.js";
-import { StatusLabel } from '../const.js';
 
     function createTaskComponentTemplate(task) {
-      const {title, status} = task;
+      const {title} = task;
       return (
         
         `
