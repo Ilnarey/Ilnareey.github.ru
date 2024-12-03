@@ -70,6 +70,9 @@ export default class TasksBoardPresenter {
       );
       if (tasksForStatus.length===0){
         render(new SubmitTaskComponent(), tasksListComponent.element);
+        this.makeClearButton();
+        const ClearButton = document.querySelector('#delite-btn');
+        ClearButton.setAttribute('disabled','true')
         }
       else{
         tasksForStatus.forEach(elem =>{
