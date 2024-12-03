@@ -1,11 +1,11 @@
 import { AbstractComponent } from "../framework/view/abstract-component.js";
- 
-function createClearButtonComponentTemplate() { 
-  return ` 
-                <button type="button">x Очистить</button> 
-        `; 
-} 
- 
+
+function createClearButtonComponentTemplate() {
+  return `
+    <button type="button" id="delite-btn">x Очистить</button>
+  `;
+}
+
 export default class ClearButtonComponent extends AbstractComponent {
   #handleClick = null;
 
