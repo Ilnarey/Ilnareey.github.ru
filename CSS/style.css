@@ -215,6 +215,10 @@ border: 1px solid #ccc;
     font-size: 50px;
     font-weight: 70px;     
   }
-
+  .tasks button:disabled, .btn:hover:disabled { 
+    background-color: #00000039; 
+    border: 1px solid rgba(0, 0, 0, .1); 
+    cursor: not-allowed; 
+  }
 
 
