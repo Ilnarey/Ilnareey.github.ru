@@ -23,4 +23,4 @@ export default class ClearButtonComponent extends AbstractComponent {
     evt.preventDefault();
     this.#handleClick();
   };
-
+}
